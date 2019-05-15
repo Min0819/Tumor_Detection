@@ -251,6 +251,8 @@ def _plot_auc(filename, s_mask):
   plt.show()
 ```
 
+#### Model 1
+
 For the pretrained model (Model 1), we test on 3 slides: `tumor_064.tif`, `tumor_110.tif`, and `tumor_091.tif`. We use AUC as the metric for our models. We also print the predicted heatmap for each test slide.
 
 > tumor_064.tif predicted heatmap using Model 1
@@ -261,3 +263,35 @@ For the pretrained model (Model 1), we test on 3 slides: `tumor_064.tif`, `tumor
 
 > AUC
 > ![auc_064](/images/auc064.png)
+
+> tumor_110.tif predicted heatmap using Model 1
+> ![tumor_110_heatmap](/images/tumor110heatmap.png)
+
+> compared with the ground truth
+> ![compared_110](/images/compared110.png)
+
+> AUC
+> ![auc_110](/images/auc110.png)
+
+> tumor_091.tif predicted heatmap using Model 1
+> ![tumor_091_heatmap](/images/tumor091heatmap.png)
+
+> compared with the ground truth
+> ![compared_091](/images/compared091.png)
+
+> AUC
+> ![auc_091](/images/auc091.png)
+
+#### Model 2
+
+For the model which is trained from scratch with data augmentation, we write an end-to-end test script for this model. Due to the size of slides and weights, and the limit of remote repository, we only test one slide `tumor_064.tif` on Model 2.
+
+[DL_final_test_end_to_end](https://github.com/TIANBOQIU/DL_final_project/blob/master/codes/DL_final_test_end_to_end.ipynb)
+
+Result of Model 2
+
+> compared with the ground truth
+> ![compared_064](/images/m2compared064.png)
+
+> AUC
+> ![auc_064](/images/m2auc064.png)
