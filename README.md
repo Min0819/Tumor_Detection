@@ -295,3 +295,16 @@ Result of Model 2
 
 > AUC
 > ![auc_064](/images/m2auc064.png)
+
+---
+
+Notes:
+https://github.com/TIANBOQIU/DL_final_project_2019
+contains weight file and one test slide image to test Model 2, and this repository is only used for the end-to-end test script
+
+`/models` in the current repository contains weight files for two models.
+
+In order to get the weight files rather than the headers:
+
+1. install lfs tool: `apt-get install git-lfs`
+2. after clone the repository: `git lfs pull`
