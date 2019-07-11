@@ -4,6 +4,13 @@ Applied Deep Learning Final Project
 
 ---
 
+#### Find the project
+- [Public Git Repository](https://github.com/Min0819/Tumor_Detection)
+- [YouTube Video](https://youtu.be/27xmrUgqNxI)
+- [Google Drive Link](https://drive.google.com/drive/folders/1oq6huGYAyPzy5wYrLmKebeXyZBqxVkFb?usp=sharing)
+
+---
+
 ## Description
 
 The main task is to detect the tumor cells in the Gigapixel Pathology Images. And each slide contains about 10,000,000,000 pixels.
