@@ -286,7 +286,7 @@ For the pretrained model (Model 1), we test on 3 slides: `tumor_064.tif`, `tumor
 
 For the model which is trained from scratch with data augmentation, we write an end-to-end test script for this model. Due to the size of slides and weights, and the limit of remote repository, we only test one slide `tumor_064.tif` on Model 2.
 
-[DL_final_test_end_to_end](https://github.com/TIANBOQIU/DL_final_project/blob/master/codes/DL_final_test_end_to_end.ipynb)
+[DL_final_test_end_to_end](https://github.com/Min0819/Tumor_Detection/edit/master/codes/DL_final_test_end_to_end.ipynb)
 
 Result of Model 2
 
@@ -299,7 +299,7 @@ Result of Model 2
 ---
 
 Notes:
-https://github.com/TIANBOQIU/DL_final_project_2019
+https://github.com/Min0819/applied_dl
 contains weight file and one test slide image to test Model 2, and this repository is only used for the end-to-end test script
 
 `/models` in the current repository contains weight files for two models.
