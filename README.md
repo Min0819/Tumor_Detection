@@ -2,7 +2,8 @@
 
 Applied Deep Learning Final Project
 Group member: Min Fu(mf3200), Tianbo Qiu(tq2137)
-codes:
+
+#### codes:
     - DLfinal_TrainTestEvaluate.ipynb 
     - DL_final_data_augmentation.ipynb
     - DL_final_test_end_to_end.ipynb
@@ -23,7 +24,7 @@ due to the size limitation of GitHub. The weight and test slide is
 stored in another GitHub repository for convenience. The reason is that
 we want to bypass the authorization of Google Drive and get the test data.
 
-models:
+#### models:
     - InceptionV3_pre.zip # Model 1, pretrained on ImageNet
     - InceptionV3_nopre_ck4.zip # Model 2, trained from scratch
     
